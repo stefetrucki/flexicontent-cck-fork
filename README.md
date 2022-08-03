@@ -47,3 +47,11 @@ Some of FLEXIcontent Unique features:
 -- High performance frontend views and items manager, with steady performance as sites grows (**installing on EXISTING larges sites 20,000+ items is still slow, TODO), (and works with full page caching extensions)  
 -- 30+ ACL actions (e.g. edit field value)  
 -- ... many more UNIQUE  
+
+
+I made the following Changes:
+- UiKit Gallery with popup for immages
+
+to do
+- replace masonary with UiKit
+- optimising Pannellum Integration
