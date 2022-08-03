@@ -1498,8 +1498,9 @@ class flexicontent_html
 
 
 			case 'pannellum' :
-				$document->addStyleSheet('https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css');
-				$document->addScript('https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js');
+				$framework_path = JUri::root(true).$lib_path.'/pannellum';
+				$document->addStyleSheet('$framework_path.'/pannellum.css');
+				$document->addScript('$framework_path.'/pannellum.js');
 				break;
 
 			case 'select2':
