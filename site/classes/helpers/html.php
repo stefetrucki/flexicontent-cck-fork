@@ -1499,8 +1499,8 @@ class flexicontent_html
 
 			case 'pannellum' :
 				$framework_path = JUri::root(true).$lib_path.'/pannellum';
-				$document->addStyleSheet('$framework_path.'/pannellum.css');
-				$document->addScript('$framework_path.'/pannellum.js');
+				$document->addStyleSheet($framework_path.'/pannellum.css');
+				$document->addScript($framework_path.'/pannellum.js');
 				break;
 
 			case 'select2':
